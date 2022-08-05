@@ -1,0 +1,145 @@
+*{
+    margin:0px;
+    padding:0px;
+
+}
+body {
+    font-family: sans-serif;
+    /*color:#1098ad;*/
+    border-top: 5px solid #1098ad;
+    position:relative;
+}
+.main-header {
+    background-color: #f7f7f7;
+    padding: 20px;
+    padding-right: 40px;
+    padding-left: 40px;
+    margin-bottom:20px;
+}
+.post-header{
+    margin-bottom:20px;
+}
+/*h1, h2, h3, h4, p, li{
+    font-family:sans-serif;
+}*/
+h1, h2, h3{
+    color:#009eff;
+}
+h1 {
+    font-size: 30px;
+    text-transform: uppercase;
+    font-style:italic;
+   
+}
+
+h2{
+    color: darkslategrey;
+    font-size: 24px;
+    position:relative;
+}
+h3 {
+    color: darkslategrey;
+    font-size: 20px;
+    margin-bottom:20px;
+}
+h4 {
+    color: darkslategrey;
+    font-size: 20px;
+    text-align:center;
+}
+articls{
+    margin-bottom:50px;
+}
+p{
+    font-size: 16px;
+    margin-bottom:15px;
+}
+ul,ol{
+    margin-left:50px;
+    margin-bottom:20px;
+}
+li{
+    font-size: 16px;
+}
+footer p{
+    font-size:16px;
+}
+/*id */
+#author{
+    font-style:italic;
+    font-size:14px;
+}
+#copyright{
+    font-size:14px;
+}
+.related-author{
+    font-size:18px;
+}
+.related-posts{
+    list-style:none;
+}
+.post-img{
+    width:100%;
+    height:auto;
+}
+.container{
+    width:800px;
+    /*margin-left:auto;
+    margin-right:auto;*/
+    margin: 0 auto;
+}
+aside{
+    background-color:#f7f7f7;
+    border-top:5px solid #1098ad;
+    border-bottom:5px solid #1098ad;
+    padding: 50px 0px;
+}
+li:first-child{
+    font-weight:bold;
+}
+li:last-child{
+    margin-bottom:20px;
+}
+a{
+    color:red;
+}
+a:link{
+    color:#1098ad;
+    text-decoration:none;
+    margin-right:10px;
+    margin-top:10px;
+    display:inline-block;
+}
+a:visited {
+        color: #1098ad;
+}
+a:hover{
+    color:orange;
+    text-decoration:underline orange;
+}
+a:active{
+    color:black;
+    text-decoration:underline black;
+}
+button{
+    /*font-size:22px;
+    padding:20px;
+    cursor:pointer;
+    flood-color:aliceblue;*/
+    position:absolute;
+    bottom:50px;
+    right:50px;
+}
+h1::first-letter{
+    font-style:normal;
+}
+h2::after{
+    content:"TOP";
+    font-size:10px;
+    background-color:yellow;
+    font-weight:bold;
+    padding: 5px 10px;
+    position:absolute;
+    top:-10px;
+    right:-15px;
+}
